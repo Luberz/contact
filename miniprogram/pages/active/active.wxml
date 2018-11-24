@@ -1,0 +1,4 @@
+<!--miniprogram/pages/active/active.wxml-->
+<view wx:for="{{activityList}}" wx:for-index="idx" wx:for-item="item" wx:key="index">
+  {{idx}}: {{item.title}}
+</view>
